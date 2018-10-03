@@ -7,8 +7,10 @@ public class Employee {
 
 	public Employee(int id, String name) {
 
-		setId(id);
-		setName(name);
+		//setId(id);
+		//setName(name);
+		this.id=id;
+		this.name=name;
 	}
 
 	public int getId() {
